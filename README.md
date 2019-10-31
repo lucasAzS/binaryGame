@@ -1,2 +1,0 @@
-# binaryGame
-Created with CodeSandbox

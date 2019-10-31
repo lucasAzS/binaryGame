@@ -20,7 +20,13 @@ function App() {
     setGuess(150);
   };
   if (state === "Begin") {
-    return <button onClick={playGame}>Play</button>;
+    return (
+      <div>
+        <p>Choose a number in between 0 and 300</p>
+        <p>and I will try to guess it :)</p>
+        <button onClick={playGame}>Play</button>
+      </div>
+    );
   }
   const lower = () => {
     setNumGuess(numGuess + 1);
